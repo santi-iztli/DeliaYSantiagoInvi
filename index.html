@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- title -->
+  <title>Boda|Delia & Santiago</title>
+  <!-- meta -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- open graph -->
+  <meta property="og:type" content="Invitacion digital" />
+  <meta property="og:image" content="./Imagenes/pareja-de-boda.png" />
+  <meta property="og:title" content="Tenemos el placer de invitarte a nuestra boda" />
+  <meta name="description" content="Abrir" />
+  <!-- favicon -->
+  <link rel="icon" href="./img/pareja-de-boda.png" />
+
+  <!-- countdown jquery -->
+<!--   <link rel="stylesheet" href="css/countdown/jquery.countdown.css" type="text/css" /> -->
+  <!-- Animate CSS -->
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <!-- SweetAlerts -->
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <!-- fontawesome.com -->
+  <script src="https://kit.fontawesome.com/ad7188daf6.js" crossorigin="anonymous"></script>
+  <!-- css -->
+  <link rel="stylesheet" href="./style/css/style.css" />
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+</head>
+
+<body class="dark">
+  <section class="column-main">
+    <!-- particles wallpaper -->
+    <div class="animation-wrapper">
+      <div class="particle particle-1"></div>
+      <div class="particle particle-2"></div>
+      <div class="particle particle-3"></div>
+      <div class="particle particle-4"></div>
+    </div>
+    <!-- Switch theme -->
+    <article class="switch-wrapper">
+      <button class="switch" id="switch">
+        <span><i class="fa-solid fa-sun"></i></span>
+        <span><i class="fa-solid fa-moon"></i></span>
+      </button>
+    </article>
+    <!-- Header -->
+    <header class="glass-card header scroll-reveal top">
+      <img src="./img/ajusco-sol.jpg" class="imagen-header" alt="">
+      <div class="header-header">
+        <h3>Boda de</h3>
+        <h1>Delia y Santiago</h1>
+      </div>
+      <!-- Cuenta regresiva -->
+      <div class="counter-wrapper">
+        <div class="cartel">
+          <div id="dias"></div>
+          <div class="h3">
+            <h3>Días</h3>
+          </div>
+        </div>
+        <div class="cartel">
+          <div id="horas"></div>
+          <div class="h3">
+            <h3>Horas</h3>
+          </div>
+        </div>
+        <div class="cartel">
+          <div id="minutos"></div>
+          <div class="h3">
+            <h3>Minutos</h3>
+          </div>
+        </div>
+        <div class="cartel">
+          <div id="segundos"></div>
+          <div class="h3">
+            <h3>Segundos</h3>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Principal -->
+    <section class="glass-card scroll-reveal bottom">
+      <div class="glass-card-main">
+        <img src="./img/novios-white.png" class="novios-white" alt="">
+      </div>
+      <div class="glass-card-description">
+        Tenemos el placer de invitarte a la consagración de nuestra unión y al
+        comienzo del resto de nuestra vida juntos. <br> Nos encantaría celebrar este día
+        tan especial rodeados de la gente que queremos, por eso ¡No puedes faltar!  <br> <span>¡Te esperamos!</span> 
+      </div>
+    </section>
+    <!-- Donde y cuando -->
+    <section class="glass-card scroll-reveal bottom">
+      <div class="glass-card-header">
+        <h2>¿Dónde y Cuándo?</h2>
+
+        <h3>Hotel Hacienda Cocoyoc</h3>
+      </div>
+      <div class="glass-card-main">
+        <img src="./img/home-bckg-01.jpg" class="hotel-photo"  alt="">
+      </div>
+      <div class="glass-card-description">
+        <p>Sábado 15 de abril del 2023</p>
+      </div>
+      <div class="glass-card-footer">
+        <a href="" class="boton">Ver mapa</a>
+        <a href="" class="boton">Página Official</a>
+      </div>
+    </section>
+    <!-- Ceremonia y Celebración -->
+    <section class="glass-card scroll-reveal bottom">
+      <div class="glass-card-header">
+        <h2>Ceremonia 4:00 PM</h2>
+      </div>
+      <div class="glass-card-main">
+        <img src="./img/Capilla-Hacienda-Cocoyoc.jpg" class="hotel-photo"alt="">
+      </div>
+      <div class="glass-card-description">
+        <p>Capilla de Hacienda Cocoyoc</p>
+      </div>
+      <hr>
+      <div class="glass-card-header">
+        <h2>Celebración 6:00 PM</h2>
+      </div>
+      <div class="glass-card-main">
+        <img src="./img/trapiche.png" class="hotel-photo" alt="">
+      </div>
+      <div class="glass-card-description">
+        <p>Salón Trapiche</p>
+      </div>
+    </section>
+    <!-- Codigo de vestimenta -->
+    <section class="glass-card scroll-reveal bottom">
+      <div class="glass-card-header">
+        <h2>Código de Vestimenta:</h2>
+        <h4>Formal fresco</h4>
+      </div>
+      <hr>
+      <div class="glass-card-header">
+        <h5>Mujeres:</h5>
+        <p>Vestido no blanco</p>
+      </div>
+      <div class="glass-card-main">
+        <img src="./img/vestido-largo-white.png" class="vestido-white" alt="">
+      </div>
+      <hr>
+      <div class="glass-card-header">
+        <h5>Hombres:</h5>
+        <p>Guayabera</p>
+      </div>
+      <div class="glass-card-main">
+        <img src="./img/camisa-manga-corta-white.png" class="guayabera-white" alt="">
+      </div>
+    </section>
+    <!-- Opciones de Hospedaje-->
+    <section class="glass-card scroll-reveal bottom">
+      <div class="glass-card-header">
+        <h2>Opciones de Hospedaje</h2>
+        <h3>Hotel Hacienda Cocoyoc</h3>
+      </div>
+      <div class="glass-card-main">
+        <img src="./img/Albercas-hotel-Hacienda-Cocoyoc.png" class="hotel-photo" alt="">
+      </div>
+      <div class="glass-card-description">
+        <p>El evento se llevará a cabo en Cocoyoc/Morelos por lo cuál te recomendamos hospedarte en el hotel donde
+          será el evento. Si decides hospedarte en el hotel, contarás con un 10% de descuento con el código de descuento
+          "Boda Morera Roldán", podrás hacer la reserva antes del gran día, pero realizar el pago hasta el día del
+          evento.</p>
+      </div>
+      <div class="glass-card-footer">
+        <a href="" class="boton">Reservar</a>
+      </div>
+    </section>
+    <!-- Confirmar asistencia -->
+    <section class="glass-card scroll-reveal   bottom">
+      <div class="glass-card-header">
+        <h2>Confirmar asistencia</h2>
+      </div>
+      <div class="glass-card-main">
+        <iframe
+          src="https://docs.google.com/forms/d/e/1FAIpQLSfCjzUODQrHzcVOLGd53uJ_qI7K_w8gAfAAh_LYvUunFfsrkg/viewform?embedded=true"
+          class="google-form">Cargando…</iframe>
+      </div>
+    </section>
+    <!-- Save the date -->
+    <section class="glass-card scroll-reveal   bottom">
+      <div class="glass-card-header">
+        <h2>Save the date</h2>
+      </div>
+      <div class="glass-card-main">
+        <img src="./img/SaveTheDateWhite.svg" alt="">
+      </div>
+      <div class="glass-card-footer">
+        <a href="" class="boton">Agregar a Calendario</a>
+      </div>
+    </section>
+    <!-- Mesa de Regalos -->
+    <section class="glass-card scroll-reveal   bottom">
+      <div class="glass-card-header">
+        <h2>Mesa de Regalos</h2>
+        <p>Tu precencia es el mejor regalo</p>
+      </div>
+      <div class="glass-card-main">
+        <img src="./img/dar-amor.png" class="mesa-regalos" alt="">
+      </div>
+      <div class="glass-card-footer">
+        <a href="" class="boton">Amazon</a>
+      </div>
+    </section>
+    <!-- Slider Final -->
+  <section id="slider" class="glass-card">
+    <div class="image-container">
+  
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+            aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+            aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
+            aria-label="Slide 6"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/3.png" class="d-block w-100" alt="..." />
+            <div class="carousel-caption   d-md-block">
+              <h5>Delia y Santiago</h5>
+              <p>
+                Teotihuacan / 2022
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/2.png" class="d-block w-100" alt="..." />
+            <div class="carousel-caption   d-md-block">
+              <h5>Delia y Santiago </h5>
+              <p>
+                Teotihuacan / 2022
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/1.png" class="d-block w-100" alt="..." />
+            <div class="carousel-caption   d-md-block">
+              <h5>Delia y Santiago </h5>
+              <p>
+                Bacalar / Qroo 2022
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/4.png" class="d-block w-100" alt="..." />
+            <div class="carousel-caption   d-md-block">
+              <h5>Delia y Santiago </h5>
+              <p>
+                Bacalar / Qroo 2022
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/5.png" class="d-block w-100" alt="..." />
+            <div class="carousel-caption   d-md-block">
+              <h5>Delia y Santiago </h5>
+              <p>
+                Six flags México 2017
+              </p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
+    <!-- Footer -->
+    <footer class="glass-card footer">
+      <p>Copyright® ThisIsSanti.dev 2023</p>
+<!--       <a href="" class="boton">Instagram</a>
+      <a href="" class="boton">Facebook</a>
+      <a href="" class="boton">Linked in</a> -->
+    </footer>
+  </section>
+  <!-- JavaScript -->
+  <script src="./js/animaciones.js"></script>
+  <script src="./js/theme.js"></script>
+  <script src="./js/timer.js"></script>
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+
+</html>
