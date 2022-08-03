@@ -30,19 +30,8 @@ function addObserver(el, options){
     observer.observe(el)
 }
 // Example usages:
-scrollTrigger('.intro-text')
 
 scrollTrigger('.scroll-reveal', {
-    rootMargin: '-200px',
-})
-
-scrollTrigger('.loader', {
-    rootMargin: '-200px',
-    cb: function(el){
-        el.innerText = 'Loading...'
-        setTimeout(() => {
-            el.innerText = 'Task Complete!'
-        }, 1000)
-    }
+    rootMargin: '-50px',
 })
 
