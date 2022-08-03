@@ -5,14 +5,15 @@ body {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	background: #ffffff;
-	color: black;
+	background: rgb(233, 226, 255);
+	color: white !important;
+	text-align: center;
 
 	&.dark {
 		background: #0f0c29;
 		background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
 		background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
-		color: #ffffff;
+		color: white;
 
 	}
 }
@@ -23,10 +24,14 @@ body {
 	display: flex;
 	align-items: center;
 	flex-direction: column;
-	background-color: rgb(243, 255, 242);
+	background-color: rgb(233, 226, 255);
 	background-attachment: fixed;
-	max-width: 500px;
+	max-width: 400px;
 	width: 100%;
+
+	@media only screen and (min-width: 500px){
+		max-width: 500px;
+	}
 
 	body.dark & {
 
@@ -44,18 +49,19 @@ body {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	text-align: center;
 	width: 90%;
 	margin: 10px;
 	padding: 10px;
 	border-radius: 15px;
 	-webkit-backdrop-filter: blur(10px);
 	backdrop-filter: blur(1px);
-	background-color: rgba(15, 15, 15, 0.1);
-	padding: 30px;
+	background-color: rgba(15, 15, 15, 0.3);
+	padding: 20px;
 	transition: transform .7s, opacity .7s;
 
 	body.dark & {
-		background-color: rgba(255, 255, 255, 0.1);
+		background-color: rgba(255, 255, 255, 0.3);
 	}
 
 	.glass-card-header {
@@ -90,7 +96,7 @@ body {
 		align-items: center;
 		justify-content: center;
 		text-align: justify;
-		padding: 20px;
+		padding: 10px;
 		
 		font-family: "Poiret One";
 
@@ -129,7 +135,7 @@ body {
 		margin: 2px;
 		height: 50px;
 		text-decoration: none;
-		color: black;
+		color: white;
 		border-radius: 15px;
 		transition: all .3s cubic-bezier(0.075, 0.82, 0.165, 1);
 
@@ -154,9 +160,16 @@ body {
 	align-items: center;
 	justify-content: space-between;
 	height: 600px;
-	font-family:'Righteous', "Josefin Sans";
+	background-image: url(../../../img/ajusco-sol.jpg);
+
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	font-family:"Josefin Sans";
     color: rgb(255, 255, 255);
-    text-shadow: 0 5px 5px black;
+
+
 
 	.header-header{
 		display: flex;
@@ -168,26 +181,27 @@ body {
 	}
 
 	h1{
-		font-size: 40px ;
-		font-weight: bolder;
+		font-size: 60px ;
+		text-shadow: 0 0 20px #302b63;
+
 	}
 
 	h3{
-		font-size: 20px ;
-		font-weight: bolder;
+		margin-top: 20px;
+		font-size: 30px ;
 		color: rgb(255, 255, 255);
 	}
 
 }
 
 .imagen-header{
-	width: 50%;
 	position:fixed;
 	width: 100%;
 	top: 0;
 	z-index: -1;
 	border-radius: 15px;
 	height: 100%;
+	display: none;
 
 }
 
@@ -251,10 +265,21 @@ body {
 
 /* <!-- google-form --> */
 
+.asistencia-card{
+	padding: 0;
+	padding-top: 30px;
+}
+
 .google-form{
-	height: 1200px;
+	height: 1100px;
 	overflow: hidden;
 	width: 100%;
+
+	@media screen and (min-width:414px) {
+		height: 1000px;
+		width: 90%;
+		
+	}
 }
 
 /* <!-- Mesa de regalos --> */
@@ -262,6 +287,14 @@ body {
 .mesa-regalos{
 	width: 40%;
 	margin: 20px 0 30px 0;
+}
+
+/* <!-- Mesa de Regalos --> */
+
+.qr-share{
+	width: 50%;
+	margin: 20px 0 30px 0;
+	border-radius: 5px;
 }
 
 
