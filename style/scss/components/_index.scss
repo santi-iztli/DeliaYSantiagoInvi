@@ -137,6 +137,7 @@ body {
 		text-decoration: none;
 		color: white;
 		border-radius: 15px;
+		font-family: "Poiret One";
 		transition: all .3s cubic-bezier(0.075, 0.82, 0.165, 1);
 
 		body.dark &{
@@ -161,7 +162,7 @@ body {
 	justify-content: space-between;
 	height: 600px;
 	background-image: url(../../img/ajusco-sol.jpg);
-
+	background-clip: border-box;
 	background-size:cover;
 	background-repeat: no-repeat;
 	background-position: center;
