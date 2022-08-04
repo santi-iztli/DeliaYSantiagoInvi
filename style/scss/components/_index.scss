@@ -54,9 +54,10 @@ body {
 	border-radius: 15px;
 	-webkit-backdrop-filter: blur(10px);
 	backdrop-filter: blur(1px);
-	background-color: rgba(15, 15, 15, 0.3);
+	background-color: rgba(15, 15, 15, 0.1);
 	padding: 20px;
 	transition: transform .7s, opacity .7s;
+	font-family: "Poiret One";
 
 	body.dark & {
 		background-color: rgba(255, 255, 255, 0.1);
@@ -67,16 +68,17 @@ body {
 		justify-content: center;
 		flex-direction: column;
 		align-items: center;
-		font-family: "Poiret One";
+	
 
 		h2 {
 			font-size: 30px;
 			margin: 0 0 15px 0;
+		
 		}
 
 		h3 {
 			font-size: 25px;
-			font-weight: bolder;
+		
 		}
 
 	}
@@ -180,15 +182,28 @@ body {
 	}
 
 	h1{
-		font-size: 60px ;
-		text-shadow: 0 0 20px #302b63;
+		font-size: 50px;
+		color: #24204f;
+		text-shadow: 0 0 10px #ffffff;
+		font-family: "Allura", cursive;
+		font-weight: 600;
+	}
+
+	h2{
+		margin-top: 10px;
+		font-size: 30px ;
+		color: #24204f;
+		font-weight: 600;
 
 	}
 
 	h3{
 		margin-top: 20px;
 		font-size: 30px ;
-		color: rgb(255, 255, 255);
+		color: #24204f;
+
+
+	
 	}
 
 }
@@ -241,7 +256,7 @@ body {
 .novios-white {
     width: 60%;
     margin-left: 100px;
-	filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.5));
+	filter: drop-shadow(0 0 20px rgba(0, 255, 255, 0.3));
 }
 
 /* <!-- Donde y cuando --> */
@@ -256,13 +271,13 @@ body {
 
 .vestido-white{
 	width: 50%;
-	filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.5));
+	filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.3));
 }
 
 
 .guayabera-white{
 	width: 50%;
-	filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.5));
+	filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.3));
 }
 
 
@@ -287,7 +302,7 @@ body {
 	}
 }
 
-/* <!-- Mesa de regalos --> */
+/* <!-- Save the day --> */
 
 .save-frame{
 	width: 100% !important;
@@ -312,15 +327,12 @@ body {
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;
-
-	a img{
-		width: 100%;
-	}
 }
 
 
 .cloud-img{
 	width: 100px;
+	filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.3));
 }
 
 .qr-share{
@@ -371,34 +383,4 @@ body {
 
 
 
-/* boton */
-
-
-/****** front-page ******/
-
-/* .front-page{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-
-}
-
-
-.titles-container{
-	position: absolute;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-	
-	p{
-		display: flex;
-		justify-self: flex-start;
-		color: white;
-		text-shadow: 0 0 10px black;
-	}
-}	
-
-
- */
+/* Fin */
