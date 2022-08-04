@@ -24,13 +24,20 @@ body {
 
 .swal2-title{
 	font-size: 1.175em !important;
-	font-weight: 400 !important;
+	font-weight: 600 !important;
+	font-family: "Poiret One";
+}
+
+.swal2-popup{
+	border-radius: 250px !important;
+	filter: drop-shadow(0 0 10px black);
 }
 
 .swal2-html-container{
-	font-size: 2.3em !important;
+	font-size: 3em !important;
 	font-weight: 600 !important;
 	font-family: "Allura", cursive;
+	
 }
 /* <!-- column-main --> */
 

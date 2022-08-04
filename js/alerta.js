@@ -2,10 +2,10 @@
 function alerta() {
     Swal.fire({
         imageUrl: './img/invitacion.gif',
-        imageWidth: 100,
-        imageHeight: 100,
-        text:'Delia y Santiago 🎉',
-        title:'Hey! Has sido invitado a la boda de:',
+        imageWidth: 150,
+        imageHeight: 150,
+        text:'Delia y Santiago',
+        title:'Has sido invitado a la boda de:',
         confirmButtonText: 'Abrir',
         color: '#000',
         background: '#ffffffb3',
