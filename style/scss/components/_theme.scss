@@ -1,19 +1,20 @@
 /* Theme */
 
 .switch-wrapper{
-    position: fixed;
-    z-index: 99999;
-    top: 20px;
-    left: 30px;
+    position: absolute;
+    top: 10px;
+    left: 6px;
+    z-index: 999;
 }
 
 
 .switch {
     background: orange;
-    border-radius: 50px;
+    border-radius: 1000px;
     border: none;
     position: relative;
     cursor:pointer;
+    width: 65px;
     display: flex;
     outline:none;
     transition: all 1s ease;
@@ -21,24 +22,23 @@
     &::after{
        content: "";
        display: block; 
-       width:30px;
-       height: 30px;
+       width:33px;
+       height: 33px;
        position: absolute;
        background: #f1f1f1;
        top: 0;
        left: unset;
-       right:0;
+       right: 0;
        border-radius: 100px;
-       transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1) all;
+       transition: 1s ease all;
        box-shadow: 0px 0px 2px 2px rgba(0,0,0,.2);
     }
     &.active{
-        
-        background: #0f0c29;
+        background: #343D5B;
         color: #000;
         &::after{
-            right: unset ;
-            left: 0 ;
+            right: unset;
+            left: 0;
         }
 
     }

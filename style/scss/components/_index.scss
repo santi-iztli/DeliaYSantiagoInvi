@@ -5,14 +5,14 @@ body {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	background: rgb(233, 226, 255);
+	background: rgb(233, 226, 255) !important;
 	color: white !important;
 	text-align: center;
 
 	&.dark {
-		background: #0f0c29;
-		background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
-		background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+		background: #0f0c29!important;
+		background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29)!important;
+		background: linear-gradient(to right, #24243e, #302b63, #0f0c29)!important;
 		color: white;
 
 	}
@@ -24,7 +24,7 @@ body {
 	display: flex;
 	align-items: center;
 	flex-direction: column;
-	background-color: rgb(233, 226, 255);
+	background: rgb(223, 213, 255);
 	background-attachment: fixed;
 	max-width: 400px;
 	width: 100%;
@@ -59,7 +59,7 @@ body {
 	transition: transform .7s, opacity .7s;
 
 	body.dark & {
-		background-color: rgba(255, 255, 255, 0.3);
+		background-color: rgba(255, 255, 255, 0.1);
 	}
 
 	.glass-card-header {
@@ -159,12 +159,12 @@ body {
 	align-items: center;
 	justify-content: space-between;
 	height: 465px;
-	background-image: url(../../img/ajusco-sol.jpg);
+/* 	background-image: url(../../img/ajusco-sol.jpg);
 	background-clip: border-box;
 	background-size:contain;
 	background-repeat: no-repeat;
 	background-position: center;
-	background-attachment: fixed;
+	background-attachment: fixed; */
 	font-family:"Josefin Sans";
     color: rgb(255, 255, 255);
 
@@ -200,7 +200,6 @@ body {
 	z-index: -1;
 	border-radius: 15px;
 	height: 100%;
-	display: none;
 
 }
 
@@ -242,6 +241,7 @@ body {
 .novios-white {
     width: 60%;
     margin-left: 100px;
+	filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.5));
 }
 
 /* <!-- Donde y cuando --> */
@@ -256,27 +256,32 @@ body {
 
 .vestido-white{
 	width: 50%;
+	filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.5));
 }
+
 
 .guayabera-white{
 	width: 50%;
+	filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.5));
 }
+
 
 
 /* <!-- google-form --> */
 
 .asistencia-card{
 	padding: 0;
+	width: 99%;
 	padding-top: 30px;
 }
 
 .google-form{
-	height: 1100px;
+	height: 1500px;
 	overflow: hidden;
 	width: 100%;
 
 	@media screen and (min-width:414px) {
-		height: 1000px;
+		height: 1500px;
 		width: 90%;
 		
 	}
@@ -284,12 +289,39 @@ body {
 
 /* <!-- Mesa de regalos --> */
 
+.save-frame{
+	width: 100% !important;
+	margin: 20px;
+	filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.5));
+}
+
+/* <!-- Mesa de regalos --> */
+
 .mesa-regalos{
 	width: 40%;
 	margin: 20px 0 30px 0;
+	filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.5));
+
 }
 
-/* <!-- Mesa de Regalos --> */
+
+/* <!-- Compartir fotos --> */
+
+.download-app-buttons-wrapper{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+
+	a img{
+		width: 100%;
+	}
+}
+
+
+.cloud-img{
+	width: 100px;
+}
 
 .qr-share{
 	width: 50%;
@@ -298,10 +330,17 @@ body {
 }
 
 
+/* <!-- Slider --> */
+
+.slider-container{
+	width: 95%;
+	border-radius: 15px;
+	padding: 0;
+   }
+   
 
 
-
-/* footer */
+/* <!-- Footer --> */
 
 
 
@@ -309,32 +348,39 @@ body {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+	text-align: center;
 	flex-direction: row;
 	border-radius: 50px 50px 0 0;
 	margin-bottom: 0;
+
+	a{
+		color: white;
+		margin: 0;
+		padding: 10px;
+		text-decoration: none;
+		text-align: center;
+		align-items: center;
+
+
+		&:hover,:visited{
+			color: white;
+
+		}
+	}
 }
+
+
 
 /* boton */
 
 
 /****** front-page ******/
 
-.front-page{
+/* .front-page{
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-
-}
-
-
-.image-container{
-
-
-	img{
-		width: 500px;
-	}
-
 
 }
 
@@ -349,13 +395,10 @@ body {
 	p{
 		display: flex;
 		justify-self: flex-start;
-
-
-
-
 		color: white;
 		text-shadow: 0 0 10px black;
 	}
 }	
 
 
+ */
