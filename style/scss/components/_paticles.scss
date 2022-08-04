@@ -99,9 +99,8 @@ $time-4: 600s;
   border-radius: 50px;
 
   body.dark &{
-    @include particles(600);
+    display: none;
   }
-
 }
 
 .particle-2 {
@@ -146,7 +145,7 @@ $time-4: 600s;
   border-radius: 50px;
 
   body.dark &{
-    @include particles(600);
+    @include particles-dark(600);
   }
 }
 
