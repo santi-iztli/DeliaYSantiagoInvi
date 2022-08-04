@@ -375,8 +375,6 @@ body {
 
 /* <!-- Footer --> */
 
-
-
 .footer{
 	display: flex;
 	justify-content: space-around;
@@ -407,6 +405,12 @@ body {
 
 		}
 	}
+}
+
+/* <!-- Trace my ip --> */
+
+#elemID031021{
+	display: none;
 }
 
 
