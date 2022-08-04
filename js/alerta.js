@@ -4,7 +4,7 @@ function alerta() {
         imageUrl: './img/invitacion.gif',
         imageWidth: 150,
         imageHeight: 150,
-        text:'Delia y Santiago',
+        text:'Delia y Santiago 🎉',
         title:'Has sido invitado a la boda de:',
         confirmButtonText: 'Abrir',
         color: '#000',

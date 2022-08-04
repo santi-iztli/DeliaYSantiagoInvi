@@ -178,6 +178,8 @@ body {
 	}
 }
 
+
+
 /* <!-- Header --> */
 
 .header{
@@ -185,7 +187,7 @@ body {
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-between;
-	height: 465px;
+	height: 540px;
 	margin-top: 50px;
 /* 	background-image: url(../../img/ajusco-sol.jpg);
 	background-clip: border-box;
@@ -306,6 +308,8 @@ body {
 	margin: 10px;
 }
 
+
+
 /* <!-- Codigo de vestimenta --> */
 
 .vestido-white{
@@ -321,12 +325,18 @@ body {
 
 
 
+
 /* <!-- google-form --> */
 
 .asistencia-card{
 	padding: 0;
 	width: 99%;
 	padding-top: 30px;
+}
+
+.verificacion{
+	width: 50px;
+	filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.9));
 }
 
 .google-form{
