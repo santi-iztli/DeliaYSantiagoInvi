@@ -4,8 +4,8 @@ function alerta() {
         imageUrl: './img/invitacion.gif',
         imageWidth: 100,
         imageHeight: 100,
-        text:'a la boda de Delia y Santiago 😊',
-        title:'Hey! Haz sido invitado 🎉',
+        text:'a la Boda de Delia y Santiago 😊',
+        title:'Hey! Has sido invitado 🎉',
         confirmButtonText: 'Abrir',
         color: '#000',
         background: '#ffffffe5',
@@ -16,7 +16,6 @@ function alerta() {
           hideClass: {
             popup: 'animate__animated animate__bounceOut'
           },
-        footer:'invitacion para 2 personas'
     });
 }
 alerta();
