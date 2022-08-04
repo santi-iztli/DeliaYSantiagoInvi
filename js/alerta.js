@@ -7,8 +7,8 @@ function alerta() {
         text:'a la boda de Delia y Santiago 😊',
         title:'Hey! Haz sido invitado 🎉',
         confirmButtonText: 'Abrir',
-        color: '#b8b8b8',
-        background: '#273447e6',
+        color: '#000',
+        background: '#ffffffe5',
         backdrop: 'rgba(0,0,0,0.7)',
         showClass: {
             popup: 'animate__animated animate__backInDown'
