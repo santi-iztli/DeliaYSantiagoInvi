@@ -16,6 +16,9 @@ function alerta() {
           hideClass: {
             popup: 'animate__animated animate__bounceOut'
           },
+          footer:'Invitacion para 2 personas'
+
+
     });
 }
 alerta();
