@@ -29,9 +29,7 @@ body {
 	max-width: 400px;
 	width: 100%;
 
-	@media only screen and (min-width: 500px){
-		max-width: 500px;
-	}
+
 
 	body.dark & {
 
@@ -160,10 +158,10 @@ body {
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-between;
-	height: 600px;
+	height: 465px;
 	background-image: url(../../img/ajusco-sol.jpg);
 	background-clip: border-box;
-	background-size:cover;
+	background-size:contain;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
