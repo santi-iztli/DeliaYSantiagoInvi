@@ -8,7 +8,7 @@ function alerta() {
         title:'Hey! Has sido invitado 🎉',
         confirmButtonText: 'Abrir',
         color: '#000',
-        background: '#ffffffe5',
+        background: '#ffffffb3',
         backdrop: 'rgba(0,0,0,0.7)',
         showClass: {
             popup: 'animate__animated animate__backInDown'
