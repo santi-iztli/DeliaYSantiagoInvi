@@ -9,36 +9,38 @@ body {
 	text-align: center;
 
 	&.dark {
-		background: #0f0c29!important;
-		background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29)!important;
-		background: linear-gradient(to right, #24243e, #302b63, #0f0c29)!important;
+		background: #0f0c29 !important;
+		background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29) !important;
+		background: linear-gradient(to right, #24243e, #302b63, #0f0c29) !important;
 		color: white;
 
 	}
 }
+
 /* <!-- welcome alert --> */
-.swal2-container{
+.swal2-container {
 	-webkit-backdrop-filter: blur(5px);
 	backdrop-filter: blur(5px);
 }
 
-.swal2-title{
+.swal2-title {
 	font-size: 1.175em !important;
 	font-weight: 600 !important;
 	font-family: "Poiret One";
 }
 
-.swal2-popup{
+.swal2-popup {
 	border-radius: 15px !important;
 	filter: drop-shadow(0 0 10px black);
 }
 
-.swal2-html-container{
+.swal2-html-container {
 	font-size: 3em !important;
 	font-weight: 600 !important;
 	font-family: "Allura", cursive;
-	
+
 }
+
 /* <!-- column-main --> */
 
 .column-main {
@@ -61,6 +63,7 @@ body {
 
 	}
 }
+
 /* <!-- Glass-Card --> */
 
 .glass-card {
@@ -83,7 +86,7 @@ body {
 		background-color: rgba(255, 255, 255, 0.1);
 	}
 
-	p{
+	p {
 		font-size: 18px;
 	}
 
@@ -93,17 +96,17 @@ body {
 		flex-direction: column;
 		align-items: center;
 
-	
+
 
 		h2 {
 			font-size: 30px;
 			margin: 0 0 15px 0;
-		
+
 		}
 
 		h3 {
 			font-size: 25px;
-		
+
 		}
 
 	}
@@ -112,7 +115,7 @@ body {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-	
+
 	}
 
 	.glass-card-description {
@@ -122,21 +125,21 @@ body {
 		justify-content: center;
 		text-align: justify;
 		padding: 10px;
-		
+
 		font-family: "Poiret One";
 
-		p{
+		p {
 			font-size: 19px;
 			text-align: justify;
 			margin-bottom: 0;
 		}
 
-		h2{
+		h2 {
 			font-size: 25px;
-	
+
 		}
 
-		h3{
+		h3 {
 			font-size: 25px;
 			font-weight: bolder;
 		}
@@ -149,7 +152,7 @@ body {
 		flex-direction: row;
 		text-align: center;
 
-		span{
+		span {
 			font-weight: bolder;
 		}
 	}
@@ -169,7 +172,7 @@ body {
 		font-family: "Poiret One";
 		transition: all .3s cubic-bezier(0.075, 0.82, 0.165, 1);
 
-		body.dark &{
+		body.dark & {
 			color: white;
 		}
 
@@ -184,25 +187,25 @@ body {
 
 /* <!-- Header --> */
 
-.header{
+.header {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-between;
 	height: 540px;
 	margin-top: 50px;
-/* 	background-image: url(../../img/ajusco-sol.jpg);
+	/* 	background-image: url(../../img/ajusco-sol.jpg);
 	background-clip: border-box;
 	background-size:contain;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed; */
-	font-family:"Josefin Sans";
-    color: rgb(255, 255, 255);
+	font-family: "Josefin Sans";
+	color: rgb(255, 255, 255);
 
 
 
-	.header-header{
+	.header-header {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -211,7 +214,7 @@ body {
 
 	}
 
-	h1{
+	h1 {
 		font-size: 46px;
 		color: white;
 		text-shadow: 0 0 10px #24204f;
@@ -219,37 +222,37 @@ body {
 		font-weight: 600;
 
 
-		body.dark &{
-		color: #24204f;
-		text-shadow: 0 0 10px #ffffff;
+		body.dark & {
+			color: #24204f;
+			text-shadow: 0 0 10px #ffffff;
 		}
 	}
 
-	h2{
+	h2 {
 		margin-top: 10px;
-		font-size: 30px ;
+		font-size: 30px;
 		color: white;
 		text-shadow: 0 0 10px #24204f;
 		font-weight: 600;
 
-		body.dark &{
-		color: #24204f;
-		text-shadow: 0 0 10px #ffffff;
-			}
-		
+		body.dark & {
+			color: #24204f;
+			text-shadow: 0 0 10px #ffffff;
+		}
+
 
 	}
 
-	h3{
+	h3 {
 		margin-top: 20px;
-		font-size: 30px ;
+		font-size: 30px;
 		color: #24204f;
 	}
 
 }
 
-.imagen-header{
-	position:fixed;
+.imagen-header {
+	position: fixed;
 	width: 100%;
 	top: 0;
 	z-index: -1;
@@ -260,19 +263,19 @@ body {
 
 /* <!-- Countdown --> */
 
-.counter-wrapper{
+.counter-wrapper {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
 	margin-bottom: -15px;
 
-	.cartel{
+	.cartel {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
 		flex-direction: column;
-		background-color: rgb(255, 255, 255,0.2);
+		background-color: rgb(255, 255, 255, 0.2);
 		backdrop-filter: blur(1px);
 		-webkit-backdrop-filter: blur(1px);
 		width: 78px;
@@ -282,12 +285,12 @@ body {
 		margin: 2px;
 	}
 
-	div{
+	div {
 		font-size: 30px;
 	}
 
 
-	h3{
+	h3 {
 		font-size: 15px;
 		color: white;
 		margin: 0;
@@ -297,14 +300,14 @@ body {
 /* <!-- Principal --> */
 
 .novios-white {
-    width: 60%;
-    margin-left: 100px;
+	width: 60%;
+	margin-left: 100px;
 	filter: drop-shadow(0 0 20px rgba(0, 255, 255, 0.2));
 }
 
 /* <!-- Donde y cuando --> */
 
-.hotel-photo{
+.hotel-photo {
 	width: 100%;
 	border-radius: 15px;
 	margin: 10px;
@@ -314,43 +317,43 @@ body {
 
 /* <!-- Codigo de vestimenta --> */
 
-.vestido-white{
+.vestido-white {
 	width: 50%;
 	filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.3));
 }
 
 
-.guayabera-white{
+.guayabera-white {
 	width: 50%;
 	filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.3));
 }
 
 /* <!-- Confirmar asistencia --> */
 
-.asistencia-card{
+.asistencia-card {
 	padding: 0;
 	width: 99%;
 	padding-top: 30px;
 }
 
-.confirmaciones-wrapper{
+.confirmaciones-wrapper {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
 	border: 1px;
 
-	span{
+	span {
 		font-weight: 900;
 	}
 }
 
-.verificacion-img{
-	width: 50px ;
+.verificacion-img {
+	width: 50px;
 	filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.9));
 }
 
-.google-form{
+.google-form {
 	height: 1400px;
 	overflow: hidden;
 	width: 100%;
@@ -360,14 +363,14 @@ body {
 	}
 }
 
-.confirmaciones{
+.confirmaciones {
 	width: 40px;
 	margin: 5px;
 }
 
 /* <!-- Save the day --> */
 
-.save-frame{
+.save-frame {
 	width: 100% !important;
 	margin: 20px;
 	filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.3));
@@ -377,27 +380,27 @@ body {
 
 /* <!-- Mesa de regalos --> */
 
-.mesa-regalos{
+.mesa-regalos {
 	width: 40%;
 	margin: 20px 0 30px 0;
 	filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.3));
 
 }
 
-.glass-card-moon-footer{
+.glass-card-moon-footer {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 
-	p{
+	p {
 		color: white;
 		text-decoration: none;
 	}
 
 }
 
-.honey-moon{
+.honey-moon {
 	width: 90px;
 	filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.3));
 }
@@ -405,20 +408,20 @@ body {
 
 /* <!-- Compartir fotos --> */
 
-.download-app-buttons-wrapper{
+.download-app-buttons-wrapper {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;
 
-	a img{
+	a img {
 		width: 123px;
 		margin: 5px;
 	}
 }
 
 
-.cloud-img{
+.cloud-img {
 	width: 100px;
 	filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.3));
 }
@@ -427,21 +430,21 @@ body {
 
 /* <!-- Slider --> */
 
-.carousel-inner{
+.carousel-inner {
 	border-radius: 15px;
 }
 
-.slider-container{
+.slider-container {
 	width: 95%;
 	border-radius: 15px;
 	padding: 0;
-   }
-   
+}
+
 
 
 /* <!-- Footer --> */
 
-.footer{
+.footer {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
@@ -451,12 +454,12 @@ body {
 	margin-bottom: 0;
 	padding: 10px;
 
-	p{
+	p {
 		margin: 0;
 		font-size: 14px;
 	}
 
-	a{
+	a {
 		color: white;
 		margin: 0;
 		padding: 10px;
@@ -465,7 +468,8 @@ body {
 		align-items: center;
 		font-weight: 400;
 
-		&:hover,:visited{
+		&:hover,
+		:visited {
 			color: white;
 
 		}
@@ -474,7 +478,7 @@ body {
 
 /* <!-- Trace my ip --> */
 
-#elemID031021{
+#elemID031021 {
 	display: none;
 }
 
