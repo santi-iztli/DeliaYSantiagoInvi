@@ -148,6 +148,10 @@ body {
 		align-items: space-around;
 		flex-direction: row;
 		text-align: center;
+
+		span{
+			font-weight: bolder;
+		}
 	}
 
 	.boton {
@@ -329,15 +333,32 @@ body {
 	padding-top: 30px;
 }
 
+.confirmaciones-wrapper{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	border: 1px;
+
+	span{
+		font-weight: 900;
+	}
+}
+
 .verificacion-img{
 	width: 50px ;
 	filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.9));
 }
 
 .google-form{
-	height: 2000px;
+	height: 1450px;
 	overflow: hidden;
 	width: 100%;
+}
+
+.confirmaciones{
+	width: 40px;
+	margin: 5px;
 }
 
 /* <!-- Save the day --> */
