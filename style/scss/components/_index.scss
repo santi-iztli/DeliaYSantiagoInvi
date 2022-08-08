@@ -22,17 +22,20 @@ body {
 .swal2-container {
 	-webkit-backdrop-filter: blur(5px);
 	backdrop-filter: blur(5px);
+	text-shadow: none;
 }
 
 .swal2-title {
 	font-size: 1.175em !important;
 	font-weight: 600 !important;
 	font-family: "Poiret One";
+	text-shadow: none;
 }
 
 .swal2-popup {
 	border-radius: 15px !important;
 	filter: drop-shadow(0 0 10px black);
+	text-shadow: none;
 }
 
 .swal2-html-container {
