@@ -7,6 +7,7 @@ body {
 	background: rgb(233, 226, 255) !important;
 	color: white !important;
 	text-align: center;
+	text-shadow: 0 0 10px black;
 
 	&.dark {
 		background: #0f0c29 !important;
@@ -363,10 +364,12 @@ body {
 }
 
 .confirmaciones-number{
-    border: rgb(180 234 91) 4px solid;
+    border: rgb(180, 234, 91) 4px solid;
     border-radius: 50px;
     padding: 10px;
-    width: 17%;
+    line-height: 22px;
+    width: 31%;
+    filter: drop-shadow(2px 4px 16px black);
 }
 
 /* <!-- Save the day --> */
