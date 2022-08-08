@@ -194,12 +194,6 @@ body {
 	justify-content: space-between;
 	height: 540px;
 	margin-top: 50px;
-	/* 	background-image: url(../../img/ajusco-sol.jpg);
-	background-clip: border-box;
-	background-size:contain;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-attachment: fixed; */
 	font-family: "Josefin Sans";
 	color: rgb(255, 255, 255);
 
@@ -354,7 +348,7 @@ body {
 }
 
 .google-form {
-	height: 1400px;
+	height: 1500px;
 	overflow: hidden;
 	width: 100%;
 
@@ -366,6 +360,13 @@ body {
 .confirmaciones {
 	width: 40px;
 	margin: 5px;
+}
+
+.confirmaciones-number{
+    border: rgb(180 234 91) 4px solid;
+    border-radius: 50px;
+    padding: 10px;
+    width: 17%;
 }
 
 /* <!-- Save the day --> */
