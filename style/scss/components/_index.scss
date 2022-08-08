@@ -369,11 +369,19 @@ body {
 }
 
 .confirmaciones-number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     border: rgb(180, 234, 91) 4px solid;
     border-radius: 50px;
     padding: 10px;
-    line-height: 22px;
-    width: 31%;
+    line-height: 24px;
+    width: 95px;
+    height: 95px;
+    color: rgb(180, 234, 91);
+    font-weight: bold;
+    font-size: 20px !important;
     filter: drop-shadow(2px 4px 16px black);
 }
 
